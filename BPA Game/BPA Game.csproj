@@ -43,7 +43,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Game1.cs" />
-    <Compile Include="Item.cs" />
+    <Compile Include="Item\Item.cs" />
+    <Compile Include="Item\ItemArmor.cs" />
+    <Compile Include="Item\ItemPotion.cs" />
+    <Compile Include="Item\ItemWeapon.cs" />
+    <Compile Include="Level\Level.cs" />
+    <Compile Include="Player\Enemy.cs" />
+    <Compile Include="Player\FriendlyAI.cs" />
+    <Compile Include="Player\HumanPlayer.cs" />
+    <Compile Include="Player\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,6 +60,7 @@
       <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
