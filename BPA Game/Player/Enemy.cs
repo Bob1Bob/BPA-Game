@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BPA_Game.Player
+namespace BPA_Game
 {
     class Enemy : Player
     {

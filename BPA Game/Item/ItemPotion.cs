@@ -8,5 +8,8 @@ namespace BPA_Game
 {
     class ItemPotion : Item
     {
+        public ItemPotion(rarity itemRarity) : base(itemRarity)
+        {
+        }
     }
 }

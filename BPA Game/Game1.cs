@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
+using System.IO;
 
 namespace BPA_Game
 {
@@ -23,6 +25,7 @@ namespace BPA_Game
         {
             // TODO: 
             //Add initialization logic here
+            Level testLevel = new Level( Path.GetFullPath(Directory.GetCurrentDirectory() + "\\Assets\\testLevel.bmp"));
 
             base.Initialize();
         }
